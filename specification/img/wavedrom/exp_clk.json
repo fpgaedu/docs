@@ -1,0 +1,6 @@
+{
+  signal: [
+  { name: 'clk',                  wave: 'lHlHlHlHlHlHlHlHlHl'},
+  { name: 'exp_clk', 			  wave: '0..hl..hlhlhl....hl'},
+  { name: 'exp_clk_en',           wave: '0.1.0.1.....0...1.0'}]
+}
