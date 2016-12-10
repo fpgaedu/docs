@@ -1,5 +1,5 @@
-# nexus4:alpha
-The `nexys4:alpha` environment specification describes an experimentation environment based around the Digilent Nexys 4 FPGA Development board. 
+# `nexys4-usb-vivado`
+The `nexys4-usb-vivado` environment specification describes an experimentation environment based around the Digilent Nexys 4 FPGA Development board. 
 
 ## Physical Setup
 The environment prescribes that the Nexys 4 board is connected to the user's PC through a USB connection. The board is powered through the same USB connection, although one might decide to power the board through an external 5V power supply in order to allow for autonomous operation after programming. 
