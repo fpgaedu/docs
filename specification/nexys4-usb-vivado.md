@@ -1,4 +1,4 @@
-# `nexys4-usb-vivado`
+# `nexys4-usb-vivado` Environment Definition
 The `nexys4-usb-vivado` environment specification describes an experimentation environment based around the Digilent Nexys 4 FPGA Development board. 
 
 ## Physical Setup
