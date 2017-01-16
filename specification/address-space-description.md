@@ -1,3 +1,7 @@
+# Address Space Description Specification
+
+The address space description provides a mapping between the address space's positions and human-readable identifiers. This mapping allows for identification of elements within an experiment setup's address space and prevents manual lookup of postions. The address space description does not prescribe how values are to be interpreted, but is only concerned with the mapping of bit sequences. 
+
 ```
 partitions: 
   - name: signal-a
