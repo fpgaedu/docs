@@ -28,6 +28,7 @@ partitions:
         size: 32
   - name: example-ROM
     description: Example ROM with 1024 8-bit positions. From the experiment setup's perspective, the memory's contents are read-only. In order to be able to set the memory's contents, the memory is set to be writable. 
+    address: 131
     element:
         bits: 8
         writable: true
