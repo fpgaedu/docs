@@ -1,3 +1,4 @@
+
 # Experimentation Package
 An experimentation package is a unit of containment for the resources required to setup and interact with an experiment setup. The experimentation package is defined to be a `.zip`file archive. The contents of the file archive are unspecified, except for the file entry `manifest.yaml` which is reserved for the package's manifest file. The following listing displays an example file structure for an experimentation package:
 
@@ -31,23 +32,20 @@ experimentSetup:
     title: counter
     description: A simple 25-bit counter with an enable signal.
     version: 0.3
-programmingProtocol:
-    identifier: vivado-programming
-    parameters:
+modules: 
+  - identifier: vivado-programming
+    configuration:
         bitStreamFile: bitstream.bit
-communicationProtocol:
-    identifier: serial
-    parameters:
+  - identifier: serial
+    configuration:
         baudRate: 9600
-interactionProtocol:
-    identifier: interaction-basic
-    parameters:
+  - identifier: interaction-basic
+    configuration:
         dataWidth: 32
         addressWidth: 32
-frontEndDirectives:
   - identifier: address-space
-    parameters:
-        descriptionFile: address-space.yaml
+    configuration:
+        AddressSpaceDescriptionFile: address-space.yaml
     
 
 		
